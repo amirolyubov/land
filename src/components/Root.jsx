@@ -1,10 +1,39 @@
 import React, { Component, Fragment } from 'react'
+import scrollTo from 'jquery.scrollTo'
 import ReactPageScroller from 'react-page-scroller'
 import MediaQuery from 'react-responsive'
 
 import { PopupContainer } from '../containers'
 import { Nav, Start, Gallery, Footer, Desktop, Mobile } from './'
 import * as utils from '../utils'
+
+
+class Slider extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      trig: true
+    }
+  }
+  handleBulletClick = to => {
+    this.props.scroll(to)
+  }
+  calcActive = to => {
+    return to === this.props.position
+           ? 'active'
+           : ''
+  }
+  render() {
+    return (
+      <div className='slider'>
+        <div className={this.calcActive(0)} onClick={() => this.handleBulletClick(0)}></div>
+        <div className={this.calcActive(1)} onClick={() => this.handleBulletClick(1)}></div>
+        <div className={this.calcActive(2)} onClick={() => this.handleBulletClick(2)}></div>
+        <div className={this.calcActive(3)} onClick={() => this.handleBulletClick(3)}></div>
+      </div>
+    )
+  }
+}
 
 class Root extends Component {
   constructor (props) {
@@ -138,11 +167,14 @@ class Root extends Component {
   togglePopup = () => this.setState({ renderPopup: !this.state.renderPopup })
   render () {
     const { yachts, buildings, hotels, renderPopup } = this.state
-    const { actions: { scroll }, app } = this.props
+    const { actions: { scroll } } = this.props
     return (
       <Fragment>
         <MediaQuery query='(min-device-width: 800px)'>
-          <Desktop app={app} data={this.state.data} actions={this.props.actions} renderPopup={renderPopup} />
+          <Desktop data={this.state.data} app={this.props.app} actions={this.props.actions}/>
+        </MediaQuery>
+        <MediaQuery query='(max-device-width: 800px)'>
+          <Mobile data={this.state.data} app={this.props.app} actions={this.props.actions}/>
         </MediaQuery>
       </Fragment>
     )

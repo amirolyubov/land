@@ -10,9 +10,6 @@ import * as utils from '../utils'
 class Slider extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      trig: true
-    }
   }
   handleBulletClick = to => {
     this.props.scroll(to)
@@ -37,6 +34,9 @@ class Slider extends Component {
 class Desktop extends Component {
   constructor (props) {
     super(props)
+    this.state = {
+      renderPopup: false
+    }
   }
 
   componentDidMount = () => {
@@ -53,7 +53,8 @@ class Desktop extends Component {
 
   togglePopup = () => this.setState({ renderPopup: !this.state.renderPopup })
   render () {
-    const { actions: { data, scroll }, renderPopup, data: { yachts, buildings, hotels } } = this.props
+    const { actions: { data, scroll }, data: { yachts, buildings, hotels } } = this.props
+    const { renderPopup } = this.state
     return (
       <Fragment>
         <Slider position={this.props.app.position} scroll={this.reactPageScroller && this.reactPageScroller.goToPage} />
