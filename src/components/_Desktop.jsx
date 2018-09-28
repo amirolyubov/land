@@ -3,7 +3,7 @@ import ReactPageScroller from 'react-page-scroller'
 import MediaQuery from 'react-responsive'
 
 import { PopupContainer } from '../containers'
-import { Nav, Start, Gallery, Footer } from './'
+import { Nav, Start, Gallery__desktop, Footer } from './'
 import * as utils from '../utils'
 
 
@@ -67,9 +67,9 @@ class Desktop extends Component {
             <Nav position={this.props.app.position} togglePopup={this.togglePopup} scrollPoints={this.props.app.scrollPoints} onClick={this.reactPageScroller && this.reactPageScroller.goToPage} scroll={this.props.actions.scroll}/>
             <Start />
           </Fragment>
-          <Gallery id={'gallery_hotels'} actions={this.props.actions} togglePopup={this.togglePopup} name={ 'Отели' } data={ hotels } />
-          <Gallery id={'gallery_flats'} actions={this.props.actions} togglePopup={this.togglePopup} name={ 'Живая недвижимость' } data={ buildings } />
-          <Gallery id={'gallery_yachts'} actions={this.props.actions} togglePopup={this.togglePopup} name={ 'Яхты' } data={ yachts } />
+          <Gallery__desktop id={'gallery_hotels'} actions={this.props.actions} togglePopup={this.togglePopup} name={ 'Отели' } data={ hotels } />
+          <Gallery__desktop id={'gallery_flats'} actions={this.props.actions} togglePopup={this.togglePopup} name={ 'Живая недвижимость' } data={ buildings } />
+          <Gallery__desktop id={'gallery_yachts'} actions={this.props.actions} togglePopup={this.togglePopup} name={ 'Яхты' } data={ yachts } />
         </ReactPageScroller>
         <Footer />
         { renderPopup && <PopupContainer togglePopup={this.togglePopup}/> }

@@ -34,40 +34,33 @@ class Gallery__mobile extends Component {
     const { data, name, togglePopup, id } = this.props
     const { selected, selectedImage } = this.state
 
+    console.log(data.images);
+
     return (
-      <Fragment>
-        {
-          data.map((item, key) => (
-            <div className='gallery' key={key}>
-              <div className='nav'>
-                <h1>{ item.name }</h1>
-              </div>
-              <div className='image-slider'>
-                <ImageGallery
-                  ref={ item.images.map(image => ({ original: image, thumbnail: image }))}
-                  showThumbnails={false}
-                  showFullscreenButton={false}
-                  useBrowserFullscreen={false}
-                  showPlayButton={false}
-                  showBullets
-                  additionalClass='image-wrapper'
-                  renderLeftNav={(onClick) => <button className='icon left' onClick={onClick}></button>}
-                  renderRightNav={(onClick) => <button className='icon right' onClick={onClick}></button>}
-                  />
-              </div>
-              <div className='info'>
-                <div>
-                  <p className='size__font-30px'>{ item.name }</p>
-                  <p className='size__font-20px'>{ item.location }</p>
-                  <p className='size__font-18px'>{ item.description }</p>
-                  <p className='size__font-30px'>{ item.cost }</p>
-                  <button onClick={togglePopup}>Связаться с нами</button>
-                </div>
-              </div>
-            </div>
-          ))
-        }
-      </Fragment>
+      <div className='gallery'>
+        <div className='image-slider'>
+          <ImageGallery
+            ref={ data.images.map(image => ({ original: image, thumbnail: image }))}
+            showThumbnails={false}
+            showFullscreenButton={false}
+            useBrowserFullscreen={false}
+            showPlayButton={false}
+            showBullets
+            additionalClass='image-wrapper'
+            renderLeftNav={(onClick) => <button className='icon left' onClick={onClick}></button>}
+            renderRightNav={(onClick) => <button className='icon right' onClick={onClick}></button>}
+            />
+        </div>
+        <div className='info'>
+          <div>
+            <p className='size__font-30px'>{ data.name }</p>
+            <p className='size__font-20px'>{ data.location }</p>
+            <p className='size__font-18px'>{ data.description }</p>
+            <p className='size__font-30px'>{ data.cost }</p>
+            <button onClick={togglePopup}>Связаться с нами</button>
+          </div>
+        </div>
+      </div>
     )
   }
 }
