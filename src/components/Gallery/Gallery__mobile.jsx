@@ -34,13 +34,14 @@ class Gallery__mobile extends Component {
     const { data, name, togglePopup, id } = this.props
     const { selected, selectedImage } = this.state
 
-    console.log(data.images);
+    const images = data.images.map(image => ({ original: image, thumbnail: image }))
 
     return (
       <div className='gallery'>
         <div className='image-slider'>
           <ImageGallery
-            ref={ data.images.map(image => ({ original: image, thumbnail: image }))}
+            ref={c => this.reactGallery = c}
+            items={data.images.map(image => ({ original: image, thumbnail: image }))}
             showThumbnails={false}
             showFullscreenButton={false}
             useBrowserFullscreen={false}
