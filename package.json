@@ -32,7 +32,6 @@
   },
   "dependencies": {
     "history": "^4.7.2",
-    "jquery.scrollto": "^2.1.2",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-image": "^1.5.1",

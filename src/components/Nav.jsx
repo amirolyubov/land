@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import * as utils from '../utils'
-import scrollTo from 'jquery.scrollTo'
 
 class Nav extends Component {
   constructor (props) {
