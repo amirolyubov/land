@@ -1,5 +1,4 @@
 import * as types from '../types'
-import scrollTo from 'jquery.scrollTo'
 
 export const handleChange = params => ({
   type: types.CHANGE,
