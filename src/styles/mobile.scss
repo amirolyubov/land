@@ -87,7 +87,7 @@
   html body {
     div#app {
       background: $COLOR__BROWN;
-
+      padding-bottom: 70px;
       h1 {
         color: $COLOR__YELLOW;
         padding: 40px;
@@ -362,6 +362,9 @@
           flex-direction: column;
           background: $COLOR__BROWN;
           align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
           border: 1px solid $COLOR__YELLOW;
           padding: 40px 60px 60px;
           text-align: center;
@@ -382,13 +385,13 @@
             // max-width: 200px;
           }
           div.cancel {
-            width: 16px;
-            height: 16px;
+            width: 20px;
+            height: 20px;
             background-size: contain;
             background-image: url(./images/cancel.png);
             position: absolute;
-            top: -23px;
-            right: -23px;
+            top: 70px;
+            right: 20px;
             opacity: 1;
             transition: 0.2s;
 
