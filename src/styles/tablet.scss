@@ -12,7 +12,7 @@
   @mixin color__gray { background-color: $COLOR__GRAY; }
   @mixin padding__normal { padding: 30px $SIZE__FST_COL; }
   @mixin background {
-    background-image: url(./images/bg.png);
+    background-image: url(./images/bg_mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -86,6 +86,7 @@
   //
   html body {
     div#app {
+      padding-bottom: 70px;
       background: $COLOR__BROWN;
       h1 {
         color: $COLOR__YELLOW;
@@ -176,14 +177,16 @@
           grid-row-start: 2;
           grid-row-end: 2;
           h1 {
+            text-align: left;
             margin-top: 50px;
             margin-bottom: 30px;
+            padding: 0;
             color: $COLOR__WHITE;
           }
           div {
             @include flex__line;
             div {
-              padding-right: 100px;
+              // padding-right: 100px;
               display: block;
               p {
                 font-size: 18px;
@@ -199,7 +202,6 @@
         }
       }
       div.gallery {
-        @include background;
         display: grid;
         grid-template-columns: $SIZE__FST_COL auto $SIZE__FST_COL;
         grid-template-rows: 60% 40%;
@@ -279,12 +281,14 @@
           }
         }
         div.info {
+          @include background;
           position: relative;
           grid-column-start: 2;
           grid-row-start: 3;
           display: flex;
           justify-content: center;
           align-items: center;
+
           div.content {
             width: 100%;
             padding: 40px 10px 50px;
@@ -306,6 +310,7 @@
         }
       }
       footer {
+        z-index: 20;
         position: fixed;
         box-sizing: border-box;
         background: $COLOR__BROWN;
