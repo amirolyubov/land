@@ -20,13 +20,19 @@ export const sendContacts = params =>
       .then(data => responce(data.json()))
       .catch(err => reject())
     }))().then(
+      responce => responce.data.error
+      ? dispatch((() => ({
+          type: types.POPUP__FAILURE,
+          payload: responce
+        }))())
+      : dispatch((() => ({
+          type: types.POPUP__SUCCESS,
+          payload: responce
+        }))())
+    ).catch(
       responce => dispatch((() => ({
         type: types.POPUP__SUCCESS,
         payload: responce
-      }))())
-    ).catch(
-      error => dispatch((() => ({
-        type: types.POPUP__FAILURE
       }))())
     )
   }
