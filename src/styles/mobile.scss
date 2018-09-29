@@ -372,15 +372,21 @@
         width: 100%;
         bottom: 0;
         padding: 10px $SIZE__FST_COL;
-        div {
-          display: flex;
-          justify-content: space-between;
-          * {
-            font-size: $SIZE__FONT_SMALL;
-          }
-          :nth-child(2) {
-            color: $COLOR__LIGHTGRAY;
-          }
+        display: grid;
+        grid-template-rows: 40px 20px 20px;
+        grid-template-columns: 70% 30%;
+        * {
+          font-size: $SIZE__FONT_SMALL;
+        }
+        .address {
+          grid-row-start: 1
+        }
+        .phone {
+          grid-row-start: 2
+        }
+        .name {
+          color: $COLOR__LIGHTGRAY;
+          grid-row-start: 3
         }
       }
       div.popup-wrapper {

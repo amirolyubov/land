@@ -325,10 +325,12 @@
         width: 100%;
         bottom: 0;
         padding: 10px $SIZE__FST_COL;
-        * {
+
+        .address, .phone {
           font-size: $SIZE__FONT_SMALL;
         }
-        :nth-child(1) {
+        .name {
+          font-size: $SIZE__FONT_SMALL;
           color: $COLOR__LIGHTGRAY;
         }
       }
