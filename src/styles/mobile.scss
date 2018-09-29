@@ -99,6 +99,7 @@
       h1 {
         color: $COLOR__YELLOW;
         padding: 40px;
+        padding-bottom: 0;
         text-align: center;
         box-sizing: border-box;
         font-size: $SIZE__FONT_H1
@@ -224,6 +225,7 @@
         display: grid;
         grid-template-columns: $SIZE__FST_COL auto $SIZE__FST_COL;
         grid-template-rows: 60% 40%;
+        margin-top: 40px;
 
         div.nav {
           @include flex__line;
@@ -273,10 +275,13 @@
             top: calc(50% - 16px);
 
             &.left {
+              display: none;
               left: 20px;
               transform: rotate(180deg);
             }
-            &.right { right: 20px; }
+            &.right {
+              display: none;
+              right: 20px; }
           }
           .image-wrapper {
             transition: 0.2s;
