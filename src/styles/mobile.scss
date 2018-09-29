@@ -24,7 +24,7 @@
   .color__white   { color: $COLOR__WHITE; }
 
   p {
-    font-size: 18px;
+    font-size: $SIZE__FONT_TEXT;
     color: $COLOR__WHITE;
 
     &.size__font-20px {
@@ -46,9 +46,9 @@
   button {
     cursor: pointer;
     border: 0;
-    height: auto;
     padding: 10px 20px;
     margin: 0;
+    margin-top: 30px;
     outline: 0;
     background-image: url(./images/button_bg.png);
     background-repeat: no-repeat;
@@ -87,6 +87,14 @@
   html body {
     div#app {
       background: $COLOR__BROWN;
+
+      h1 {
+        color: $COLOR__YELLOW;
+        padding: 40px;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: $SIZE__FONT_H1
+      }
       div.slider {
         z-index: 999;
         position: fixed;
@@ -121,16 +129,23 @@
       nav {
         @include padding__normal;
         @include flex__line;
+        flex-direction: column;
         z-index: 1;
         box-sizing: border-box;
         position: absolute;
         width: 100%;
         align-items: center;
+        button{
+          margin-top: 0;
+          width: 100%;
+          height: 50px;
+        }
 
         div {
           display: flex;
           align-items: center;
           * {
+            display: none;
             cursor: pointer;
             &.active {
               border-bottom: 2px solid white;
@@ -155,10 +170,10 @@
       div.start {
         @include background;
         display: grid;
-        grid-template-columns: $SIZE__FST_COL auto 23%;
-        grid-template-rows: 40% auto 100px;
+        grid-template-columns: $SIZE__FST_COL auto $SIZE__FST_COL;
+        grid-template-rows: 100px auto 100px;
         width: 100vw;
-        height: 100vh;
+        height: auto;
 
         div.content {
           @include flex__line;
@@ -167,18 +182,32 @@
           grid-column-end: 2;
           grid-row-start: 2;
           grid-row-end: 2;
+          button{
+            width: 100%;
+            height: 50px;
+          }
+          h1 {
+            padding: 0;
+            text-align: left;
+            margin-top: 80px;
+            margin-bottom: 10px;
+            color: $COLOR__WHITE;
+            font-size: 30px;
+          }
           div {
             @include flex__line;
+            flex-direction: column;
+            align-items: center;
             div {
-              padding-right: 100px;
               display: block;
+              p {
+                font-size: $SIZE__FONT_TEXT;
+              }
               p.number {
                 color: $COLOR__YELLOW;
                 font-family: $FONT__NUMBERS;
+                margin-top: 30px;
                 font-size: $SIZE__FONT_BIGGEST;
-              }
-              p.data {
-                font-size: $SIZE__FONT_TEXT;
               }
             }
           }
@@ -187,16 +216,15 @@
       div.gallery {
         @include background;
         display: grid;
-        grid-template-columns: $SIZE__FST_COL 60% calc(40% - 100px) $SIZE__FST_COL;
-        grid-template-rows: 150px calc(100vh - 150px);
-        h1 { color: $COLOR__YELLOW; }
+        grid-template-columns: $SIZE__FST_COL auto $SIZE__FST_COL;
+        grid-template-rows: 60% 40%;
 
         div.nav {
           @include flex__line;
           align-items: center;
           padding: 0 $SIZE__FST_COL;
-          grid-column-start: 1;
-          grid-column-end: 5;
+          grid-column-start: 2;
+          grid-column-end: 3;
           grid-row-start: 1;
           background: $COLOR__BROWN;
           div {
@@ -221,9 +249,9 @@
           }
         }
         div.image-slider {
-          grid-column-start: 1;
+          grid-column-start: 2;
           grid-column-end: 3;
-          grid-row-start: 2;
+          grid-row-start: 1;
           position: relative;
 
           button.icon {
@@ -267,37 +295,48 @@
         }
         div.info {
           position: relative;
-          grid-column-start: 3;
-          grid-row-start: 2;
+          grid-column-start: 2;
+          grid-row-start: 3;
           display: flex;
           justify-content: center;
           align-items: center;
-          div {
-            max-width: 70%;
-            :nth-child(2) {
-              color: $COLOR__LIGHTGRAY;
-              margin: 15px 0 40px;
+          div.content {
+            width: 100%;
+            padding: 40px 10px 50px;
+            .location {
+              padding-top: 10px;
+              padding-bottom: 30px;
+              color: $COLOR__GRAY;
             }
-            :nth-child(4) {
-              margin: 40px 0;
-              font-family: $FONT__NUMBERS;
+            div {
+              margin-top: 20px;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              align-items: center;
+              :nth-child(1) {
+                font-family: $FONT__NUMBERS;
+              }
             }
           }
         }
       }
       footer {
-        @include flex__line;
         position: fixed;
         box-sizing: border-box;
         background: $COLOR__BROWN;
         width: 100%;
         bottom: 0;
         padding: 10px $SIZE__FST_COL;
-        * {
-          font-size: $SIZE__FONT_SMALL;
-        }
-        :nth-child(1) {
-          color: $COLOR__LIGHTGRAY;
+        div {
+          display: flex;
+          justify-content: space-between;
+          * {
+            font-size: $SIZE__FONT_SMALL;
+          }
+          :nth-child(2) {
+            color: $COLOR__LIGHTGRAY;
+          }
         }
       }
       div.popup-wrapper {
