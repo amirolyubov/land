@@ -46,9 +46,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://traveller-eu.ru/sites/default/files/styles/index/public/Hrad_Loket_-1024x683.jpg?itok=c8E1l1yz?noresize',
-              'https://topwar.ru/uploads/posts/2017-04/1493225357_1-zamok-lihtenshtayn-v-germanii-v-baden-vyurtemberge.jpg?noresize',
-              'http://www.praga-praha.ru/wp-content/uploads/2012/12/%D0%97%D0%B0%D0%BC%D0%BA%D0%B8-%D0%B2-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%A7%D0%B5%D1%85%D0%B8%D0%B8.jpg?noresize'
+              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
             ]
           },
           {
@@ -57,9 +57,9 @@ class Root extends Component {
             description: 'Короткие (до 1 000 знаков) приветственные тексты на главную страницу могут позволить себе далеко не все сайты. Например, почти все крупные интернет-магазины, сайты компаний',
             cost: '120 000$',
             images: [
-              'https://traveller-eu.ru/sites/default/files/styles/index/public/Hrad_Loket_-1024x683.jpg?itok=c8E1l1yz',
-              'https://topwar.ru/uploads/posts/2017-04/1493225357_1-zamok-lihtenshtayn-v-germanii-v-baden-vyurtemberge.jpg',
-              'http://www.praga-praha.ru/wp-content/uploads/2012/12/%D0%97%D0%B0%D0%BC%D0%BA%D0%B8-%D0%B2-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%A7%D0%B5%D1%85%D0%B8%D0%B8.jpg'
+              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
             ]
           },
           {
@@ -68,9 +68,9 @@ class Root extends Component {
             description: 'Реалии же таковы, что короткие тексты обычно встречаются на трастовых и уважаемых сайтах, которые прекрасно чувствуют себя в выдаче. Наверное, в число «счастливчиков» можно ',
             cost: '120 000$',
             images: [
-              'https://traveller-eu.ru/sites/default/files/styles/index/public/Hrad_Loket_-1024x683.jpg?itok=c8E1l1yz',
-              'https://topwar.ru/uploads/posts/2017-04/1493225357_1-zamok-lihtenshtayn-v-germanii-v-baden-vyurtemberge.jpg',
-              'http://www.praga-praha.ru/wp-content/uploads/2012/12/%D0%97%D0%B0%D0%BC%D0%BA%D0%B8-%D0%B2-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%A7%D0%B5%D1%85%D0%B8%D0%B8.jpg'
+              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
             ]
           }
         ],
@@ -81,9 +81,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://traveller-eu.ru/sites/default/files/styles/index/public/Hrad_Loket_-1024x683.jpg?itok=c8E1l1yz',
-              'https://topwar.ru/uploads/posts/2017-04/1493225357_1-zamok-lihtenshtayn-v-germanii-v-baden-vyurtemberge.jpg',
-              'http://www.praga-praha.ru/wp-content/uploads/2012/12/%D0%97%D0%B0%D0%BC%D0%BA%D0%B8-%D0%B2-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%A7%D0%B5%D1%85%D0%B8%D0%B8.jpg'
+              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
             ]
           },
           {
@@ -92,9 +92,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://www.topkurortov.com/wp-content/uploads/2016/10/1-13.jpg',
-              'https://uznayvse.ru/images/stories2016/uzn_1481699219.jpg',
-              'http://mtdata.ru/u16/photoC907/20560341118-0/original.jpg'
+              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
             ]
           },
           {
@@ -103,9 +103,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://traveller-eu.ru/sites/default/files/styles/index/public/Hrad_Loket_-1024x683.jpg?itok=c8E1l1yz',
-              'https://topwar.ru/uploads/posts/2017-04/1493225357_1-zamok-lihtenshtayn-v-germanii-v-baden-vyurtemberge.jpg',
-              'http://www.praga-praha.ru/wp-content/uploads/2012/12/%D0%97%D0%B0%D0%BC%D0%BA%D0%B8-%D0%B2-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%A7%D0%B5%D1%85%D0%B8%D0%B8.jpg'
+              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
             ]
           }
         ],
@@ -116,9 +116,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://traveller-eu.ru/sites/default/files/styles/index/public/Hrad_Loket_-1024x683.jpg?itok=c8E1l1yz',
-              'https://topwar.ru/uploads/posts/2017-04/1493225357_1-zamok-lihtenshtayn-v-germanii-v-baden-vyurtemberge.jpg',
-              'http://www.praga-praha.ru/wp-content/uploads/2012/12/%D0%97%D0%B0%D0%BC%D0%BA%D0%B8-%D0%B2-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%A7%D0%B5%D1%85%D0%B8%D0%B8.jpg'
+              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
             ]
           },
           {
@@ -127,9 +127,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://traveller-eu.ru/sites/default/files/styles/index/public/Hrad_Loket_-1024x683.jpg?itok=c8E1l1yz',
-              'https://topwar.ru/uploads/posts/2017-04/1493225357_1-zamok-lihtenshtayn-v-germanii-v-baden-vyurtemberge.jpg',
-              'http://www.praga-praha.ru/wp-content/uploads/2012/12/%D0%97%D0%B0%D0%BC%D0%BA%D0%B8-%D0%B2-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%A7%D0%B5%D1%85%D0%B8%D0%B8.jpg'
+              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
             ]
           },
           {
@@ -138,9 +138,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://traveller-eu.ru/sites/default/files/styles/index/public/Hrad_Loket_-1024x683.jpg?itok=c8E1l1yz',
-              'https://topwar.ru/uploads/posts/2017-04/1493225357_1-zamok-lihtenshtayn-v-germanii-v-baden-vyurtemberge.jpg',
-              'http://www.praga-praha.ru/wp-content/uploads/2012/12/%D0%97%D0%B0%D0%BC%D0%BA%D0%B8-%D0%B2-%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%A7%D0%B5%D1%85%D0%B8%D0%B8.jpg'
+              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
+              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
             ]
           }
         ],

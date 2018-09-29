@@ -19,6 +19,7 @@ const app = (state = initialState, action) => {
     case types.POPUP__REQUEST:
     case types.POPUP__FAILURE:
     case types.POPUP__SUCCESS:
+      console.log(requestStates, action.type);
       return {
         ...state,
         requestState: requestStates[action.type]
