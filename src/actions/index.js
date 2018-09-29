@@ -7,9 +7,10 @@ export const handleChange = params => ({
 
 export const sendContacts = params =>
   dispatch => {
+    console.log(params);
     dispatch(sendContacts__request);
     (() => new Promise((resolve, reject) => {
-      fetch('https://postman-echo.com/post', {
+      fetch('http://45.76.39.192/request', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
