@@ -14,6 +14,7 @@ class Gallery__desktop extends Component {
 
   handleNameClick = key => {
     this.reactGallery.slideToIndex(0)
+    console.log(this.reactGallery);
     this.setState({ selected: key, selectedImage: 0 })
   }
   handleNextImageClick = () => {
@@ -52,7 +53,12 @@ class Gallery__desktop extends Component {
         <div className='image-slider'>
           <ImageGallery
             ref={c => this.reactGallery = c}
-            items={data[selected].images.map(image => ({ original: image, thumbnail: image }))}
+            items={data[selected].images.map((image, key) => ({
+              original: image,
+              thumbnail: image,
+              bulletClass: 'bullet',
+              bulletOnClick: item => this.reactGallery && key === item.itemIndex ? 'bullet active' : 'bullet'
+            }))}
             showThumbnails={false}
             showFullscreenButton={false}
             useBrowserFullscreen={false}

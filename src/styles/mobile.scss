@@ -172,6 +172,7 @@
           background-repeat: no-repeat;
           width: 150px;
           height: 70px;
+          margin: 10px 0;
           border: 0;
           outline: 0;
         }
@@ -180,7 +181,7 @@
         @include background;
         display: grid;
         grid-template-columns: $SIZE__FST_COL auto $SIZE__FST_COL;
-        grid-template-rows: 100px auto 100px;
+        grid-template-rows: 120px auto 100px;
         width: 100vw;
         height: auto;
 
@@ -261,6 +262,32 @@
           grid-column-end: 4;
           grid-row-start: 1;
           position: relative;
+
+          .bullet {
+            border-radius: 0;
+            box-sizing: border-box;
+            background: $COLOR__BROWN;
+            border: 0;
+            position: relative;
+            margin-bottom: 25px;
+            width: 16px;
+            height: 16px;
+
+            &.active {
+              background-color: $COLOR__YELLOW;
+            }
+            &::before {
+              cursor: pointer;
+              top: 0px;
+              left: 0px;
+              width: 16px;
+              height: 16px;
+              box-sizing: border-box;
+              content: '';
+              position: absolute;
+              border: 4px solid $COLOR__BROWN;
+            }
+          }
 
           button.icon {
             z-index: 1;

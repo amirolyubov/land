@@ -41,7 +41,12 @@ class Gallery__mobile extends Component {
         <div className='image-slider'>
           <ImageGallery
             ref={c => this.reactGallery = c}
-            items={data.images.map(image => ({ original: image, thumbnail: image }))}
+            items={data.images.map(image => ({
+              original: image,
+              thumbnail: image,
+              bulletClass: 'bullet',
+              bulletOnClick: item => this.reactGallery && key === item.itemIndex ? 'bullet active' : 'bullet'
+            }))}
             showThumbnails={false}
             showFullscreenButton={false}
             useBrowserFullscreen={false}

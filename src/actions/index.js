@@ -7,10 +7,9 @@ export const handleChange = params => ({
 
 export const sendContacts = params =>
   dispatch => {
-    console.log(params);
     dispatch(sendContacts__request);
     (() => new Promise((resolve, reject) => {
-      fetch('http://45.76.39.192/request', {
+      fetch('/request', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

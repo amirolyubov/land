@@ -234,6 +234,30 @@
           grid-row-start: 2;
           position: relative;
 
+          .bullet {
+            background: $COLOR__GRAY;
+            border-radius: 0;
+            border-color: $COLOR__BROWN;
+            border: 0;
+            position: relative;
+            margin-bottom: 50px;
+
+            &.active {
+              background-color: $COLOR__YELLOW;
+            }
+            &::before {
+              cursor: pointer;
+              top: 0px;
+              left: 0px;
+              width: 12px;
+              height: 12px;
+              box-sizing: border-box;
+              content: '';
+              position: absolute;
+              border: 2px solid #282828;
+            }
+          }
+
           button.icon {
             z-index: 1;
             cursor: pointer;
