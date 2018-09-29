@@ -265,10 +265,13 @@
             top: calc(50% - 16px);
 
             &.left {
+              display: none;
               left: 20px;
               transform: rotate(180deg);
             }
-            &.right { right: 20px; }
+            &.right {
+              display: none;
+              right: 20px; }
           }
           .image-wrapper {
             transition: 0.2s;
