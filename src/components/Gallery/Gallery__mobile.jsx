@@ -53,12 +53,14 @@ class Gallery__mobile extends Component {
             />
         </div>
         <div className='info'>
-          <div>
+          <div className='content'>
             <p className='size__font-30px'>{ data.name }</p>
-            <p className='size__font-20px'>{ data.location }</p>
+            <p className='size__font-20px location'>{ data.location }</p>
             <p className='size__font-18px'>{ data.description }</p>
-            <p className='size__font-30px'>{ data.cost }</p>
-            <button onClick={togglePopup}>Связаться с нами</button>
+            <div>
+              <p className='size__font-30px'>{ data.cost }</p>
+              <button onClick={togglePopup}>Связаться с нами</button>
+            </div>
           </div>
         </div>
       </div>
