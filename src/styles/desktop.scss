@@ -205,7 +205,7 @@
             * {
               cursor: pointer;
               text-transform: capitalize;
-              border-bottom: 2px dotted $COLOR__GRAY;
+              border-bottom: 2px dotted $COLOR__LIGHTGRAY;
               color: $COLOR__GRAY;
               transition: 0.2s;
               box-sizing: border-box;
@@ -275,7 +275,7 @@
           div {
             max-width: 70%;
             :nth-child(2) {
-              color: $COLOR__GRAY;
+              color: $COLOR__LIGHTGRAY;
               margin: 15px 0 40px;
             }
             :nth-child(4) {
