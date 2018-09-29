@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react'
-import scrollTo from 'jquery.scrollTo'
 import ReactPageScroller from 'react-page-scroller'
 import MediaQuery from 'react-responsive'
 
