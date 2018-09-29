@@ -182,10 +182,7 @@
           grid-column-end: 2;
           grid-row-start: 2;
           grid-row-end: 2;
-          button{
-            width: 100%;
-            height: 50px;
-          }
+
           h1 {
             padding: 0;
             text-align: left;
@@ -198,6 +195,7 @@
             @include flex__line;
             flex-direction: column;
             align-items: center;
+
             div {
               display: block;
               p {
@@ -249,8 +247,8 @@
           }
         }
         div.image-slider {
-          grid-column-start: 2;
-          grid-column-end: 3;
+          grid-column-start: 1;
+          grid-column-end: 4;
           grid-row-start: 1;
           position: relative;
 
@@ -281,7 +279,6 @@
               height: 100%;
             }
             div.image-gallery-bullets-container, div.image-gallery-bullets {
-              margin-top: -40px;
               width: auto;
               height: auto;
             }
@@ -302,7 +299,11 @@
           align-items: center;
           div.content {
             width: 100%;
-            padding: 40px 10px 50px;
+            padding: 40px 0px 50px;
+            button{
+              width: 100%;
+              height: 50px;
+            }
             .location {
               padding-top: 10px;
               padding-bottom: 30px;
@@ -316,12 +317,15 @@
               align-items: center;
               :nth-child(1) {
                 font-family: $FONT__NUMBERS;
+                text-align: left;
+                width: 100%;
               }
             }
           }
         }
       }
       footer {
+        z-index: 20;
         position: fixed;
         box-sizing: border-box;
         background: $COLOR__BROWN;
