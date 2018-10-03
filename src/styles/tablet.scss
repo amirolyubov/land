@@ -3,14 +3,11 @@
 // COMMON
 //
 
-@media (min-device-width: 481px) and (max-device-width: 800px){
+@media (min-device-width: 751px) and (max-device-width: 1024px){
   * {
     font-family: $FONT__TEXT;
     margin: 0;
     padding: 0;
-  }
-  a {
-    text-decoration: none !important;
   }
   @mixin color__gray { background-color: $COLOR__GRAY; }
   @mixin padding__normal { padding: 30px $SIZE__FST_COL; }
@@ -233,7 +230,6 @@
             align-items: center;
             * {
               cursor: pointer;
-              text-transform: capitalize;
               border-bottom: 2px dotted $COLOR__GRAY;
               color: $COLOR__GRAY;
               transition: 0.2s;
@@ -254,32 +250,6 @@
           grid-column-end: 3;
           grid-row-start: 1;
           position: relative;
-
-          .bullet {
-            border-radius: 0;
-            box-sizing: border-box;
-            background: $COLOR__BROWN;
-            border: 0;
-            position: relative;
-            margin-bottom: 25px;
-            width: 16px;
-            height: 16px;
-
-            &.active {
-              background-color: $COLOR__YELLOW;
-            }
-            &::before {
-              cursor: pointer;
-              top: 0px;
-              left: 0px;
-              width: 16px;
-              height: 16px;
-              box-sizing: border-box;
-              content: '';
-              position: absolute;
-              border: 4px solid $COLOR__BROWN;
-            }
-          }
 
           button.icon {
             z-index: 1;
@@ -357,22 +327,17 @@
         width: 100%;
         bottom: 0;
         padding: 10px $SIZE__FST_COL;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 30% 5px 30%;
         * {
           font-size: 12px;
         }
-        .name {
-          grid-row-start: 1;
-          grid-column-start: 2;
-          font-size: 10px;
-          width: 100%;
-          text-align: right;
-          color: $COLOR__LIGHTGRAY;
-        }
-        a {
-          grid-row-start: 3;
+        div {
+          margin-bottom: 5px;
+          display: flex;
+          justify-content: space-between;
+          :nth-child(2) {
+            font-size: 10px;
+            color: $COLOR__LIGHTGRAY;
+          }
         }
       }
       div.popup-wrapper {

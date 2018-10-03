@@ -3,14 +3,11 @@
 // COMMON
 //
 
-@media (min-device-width: 801px){
+@media (min-device-width: 1025px){
   * {
     font-family: $FONT__TEXT;
     margin: 0;
     padding: 0;
-  }
-  a {
-    text-decoration: none !important;
   }
   @mixin color__gray { background-color: $COLOR__GRAY; }
   @mixin padding__normal { padding: 30px $SIZE__FST_COL; }
@@ -184,6 +181,7 @@
               padding-right: 100px;
               display: block;
               p.number {
+                white-space: nowrap;
                 color: $COLOR__YELLOW;
                 font-family: $FONT__NUMBERS;
                 font-size: $SIZE__FONT_BIGGEST;
@@ -214,9 +212,9 @@
             @include flex__line;
             align-items: center;
             * {
+              text-decoration: underline;
+              text-decoration-style: dotted;
               cursor: pointer;
-              text-transform: capitalize;
-              border-bottom: 2px dotted $COLOR__LIGHTGRAY;
               color: $COLOR__GRAY;
               transition: 0.2s;
               box-sizing: border-box;
@@ -236,30 +234,6 @@
           grid-column-end: 3;
           grid-row-start: 2;
           position: relative;
-
-          .bullet {
-            background: $COLOR__GRAY;
-            border-radius: 0;
-            border-color: $COLOR__BROWN;
-            border: 0;
-            position: relative;
-            margin-bottom: 50px;
-
-            &.active {
-              background-color: $COLOR__YELLOW;
-            }
-            &::before {
-              cursor: pointer;
-              top: 0px;
-              left: 0px;
-              width: 12px;
-              height: 12px;
-              box-sizing: border-box;
-              content: '';
-              position: absolute;
-              border: 2px solid #282828;
-            }
-          }
 
           button.icon {
             z-index: 1;
@@ -328,12 +302,10 @@
         width: 100%;
         bottom: 0;
         padding: 10px $SIZE__FST_COL;
-
-        .address, .phone {
+        * {
           font-size: $SIZE__FONT_SMALL;
         }
-        .name {
-          font-size: $SIZE__FONT_SMALL;
+        :nth-child(1) {
           color: $COLOR__LIGHTGRAY;
         }
       }

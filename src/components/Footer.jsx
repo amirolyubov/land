@@ -9,12 +9,12 @@ class Footer extends Component {
     return (
       <footer>
         <p className='name'>2018 YIG - Yachts & Immovables Group</p>
-        <a href="tel:74957777777"  data-rel="external"><p className='phone'>+7 (495) 777-77-77</p></a>
-        <MediaQuery query='(min-device-width: 481px)'>
-          <p className='address'>«БАШНЯ ФЕДЕРАЦИЯ» Пресненская наб. 12, 19.2, Москва</p>
+        <a href="tel:+74957777777"  data-rel="external"><p className='phone'>+7 (495) 199-1999</p></a>
+        <MediaQuery query='(min-device-width: 751px)'>
+          <p className='address'>«БАШНЯ ФЕДЕРАЦИЯ» Пресненская наб. 12,  Москва</p>
         </MediaQuery>
-        <MediaQuery query='(max-device-width: 480px)'>
-          <p className='address'>«БАШНЯ ФЕДЕРАЦИЯ»<br />Пресненская наб. 12, 19.2, Москва</p>
+        <MediaQuery query='(max-device-width: 750px)'>
+          <p className='address'>«БАШНЯ ФЕДЕРАЦИЯ»<br />Пресненская наб. 12, Москва</p>
         </MediaQuery>
       </footer>
     )

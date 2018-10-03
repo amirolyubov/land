@@ -3,7 +3,7 @@
 // COMMON
 //
 
-@media (max-device-width: 480px){
+@media (max-device-width: 750px){
   * {
     font-family: $FONT__TEXT;
     margin: 0;
@@ -244,7 +244,6 @@
             align-items: center;
             * {
               cursor: pointer;
-              text-transform: capitalize;
               border-bottom: 2px dotted $COLOR__GRAY;
               color: $COLOR__GRAY;
               transition: 0.2s;

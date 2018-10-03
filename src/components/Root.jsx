@@ -39,108 +39,125 @@ class Root extends Component {
     super(props)
     this.state = {
       data: {
-        yachts: [
+        buildings: [
           {
-            name: 'Qwrf',
-            location: 'Georgia, Tbilisi',
-            description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
-            cost: '120 000$',
+            name: 'Вилла в Испании',
+            location: 'Маребелья, Испания',
+            description: 'Роскошная вилла в престижном, закрытом комплексе на побережье Андалюсии (полезная площадь более 500 кв.м., а террасы - 300 м.). Можно как жить, так и сдавать постоянно или в сезон. Построена в 2018 году.',
+            cost: '2.900.000 €',
             images: [
-              'https://odis.homeaway.com/odis/listing/aa5cdbc7-fdf5-4135-86d1-9a6803cc86e4.c10.jpg',
-              'https://s-ec.bstatic.com/images/hotel/max1024x768/106/106272808.jpg',
-              'https://odis.homeaway.com/odis/listing/50624bf1-f903-42cc-8aa4-6a84d1a5f332.c10.jpg'
+              'img/estate/vill/1.jpeg',
+              'img/estate/vill/2.jpeg',
+              'img/estate/vill/3.jpeg',
+              'img/estate/vill/5.jpeg',
+              'img/estate/vill/6.jpeg',
             ]
           },
           {
-            name: 'AAAAAAAA',
-            location: 'Test',
-            description: 'Короткие (до 1 000 знаков) приветственные тексты на главную страницу могут позволить себе далеко не все сайты. Например, почти все крупные интернет-магазины, сайты компаний',
-            cost: '120 000$',
+            name: 'Квартира в Вене',
+            location: '1. округ, Вена, Австрия',
+            description: 'Трехспальные аппартаменты расположенные в самой престижной части Вены, находятся в пятизвездочном отеле. После реновации. С дорогой сантехникой и кухней. Жилая площадь 183 м. Стоимость недвижимости в районе растет на 5-6% в год. В наличии 4 похожие квартиры',
+            cost: '1.720.000 €',
             images: [
-              'https://image.yachtcharterfleet.com/charter-LADY-A/LADY-A-yacht-rear-view-5-large.jpg?image_id=96051&k=b961&w=1024&h=768&q=75',
-              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWfo6jKOHsmQdl9-NVnd32xbC8cpH4ExOOFjLaWy4D1cFKnNWK',
-              'https://odis.homeaway.com/odis/listing/8183f736-5ff1-4dd3-a53a-cb7aac4244ac.c10.jpg'
+              'img/estate/flat/1.jpeg',
+              'img/estate/flat/2.jpeg',
+              'img/estate/flat/3.jpeg',
+              'img/estate/flat/4.jpeg',
+              'img/estate/flat/5.jpeg',
             ]
           },
           {
-            name: '0010101001010',
-            location: 'Teeest',
-            description: 'Реалии же таковы, что короткие тексты обычно встречаются на трастовых и уважаемых сайтах, которые прекрасно чувствуют себя в выдаче. Наверное, в число «счастливчиков» можно ',
-            cost: '120 000$',
+            name: 'Особняк в Вене',
+            location: '18. округ, Вена, Австрия',
+            description: 'Удостоенный премией за лучшие архитектурные решения. Особняк расположен в одном и из самых тихих и дорогих районов Вены. На площади более 350 метров находятся все для комфортного проживания большой семьи: бассейн, джакузи, две сауны и тд. Мебель и предметы искусств включены в цену',
+            cost: '2.850.000 €',
             images: [
-              'https://odis.homeaway.com/odis/listing/824a21db-6b39-4537-a508-159d28bcb2e4.c10.jpg',
-              'https://cdn.denisonyachtsales.com/images/api-listings/1/91/6/4929106_20170719053500415_1_XLARGE.jpg',
-              'https://imt.boatwizard.com/images/1/91/6/4929106_20170719053454484_1_XLARGE.jpg'
+              'img/estate/mansion/1.jpeg',
+              'img/estate/mansion/2.jpeg',
+              'img/estate/mansion/3.jpeg',
+              'img/estate/mansion/4.jpeg',
             ]
           }
         ],
-        buildings: [
+        yachts: [
           {
-            name: 'Basev SBEsebv',
+            name: '88-метровая мегаяхта',
             location: 'Georgia, Tbilisi',
-            description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
-            cost: '120 000$',
+            description: 'Мы предлагаем современную, элегантную, построенную в 2017 году 88-метровую яхту. Практически не использовалась владельцем. Построена заслужившей доверие международной компанией Oceanco. Уникальный интерьер и экстерьер, прекрасный баланс функционала и дизайна. Вертолётная площадка',
+            cost: '179.000.000 €',
             images: [
-              'https://c1.staticflickr.com/6/5064/5560750715_a1783e827f_b.jpg',
-              'http://sanfranciscoarchitects.org/wp-content/uploads/calistoga-residence-by-signum-archtecture-min.png',
-              'http://customhomemagazine.com/wp-content/uploads/2018/01/TX-AR-03-min.png'
+              'img/yachts/1/1.jpg',
+              'img/yachts/1/2.jpg',
+              'img/yachts/1/3.jpg',
+              'img/yachts/1/4.jpg',
+              'img/yachts/1/5.jpg',
             ]
           },
           {
-            name: 'Evssbv  SEBerb',
-            location: 'Spb',
-            description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
-            cost: '120 000$',
+            name: '56-метровый парусник',
+            location: 'Испания',
+            description: '56-метровый парусник из серии Perini. Самый современный дизайн, роскошная отделка палубы и кают, джакузи на верхней палубе. Находится в Испании. Зарегистрирована в оффшоре (минимальные ежегодные затраты)',
+            cost: '28.000.000 €',
             images: [
-              'https://c1.staticflickr.com/6/5064/5560750715_a1783e827f_b.jpg',
-              'https://edinarealtyimages.blob.core.windows.net/listing/RMLS/9901-9903-Rich-Road-Bloomington-MN-55437-4890933-image1.jpg',
-              'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Rich-Twinn_Octagon_House_Oct_09.jpg/1024px-Rich-Twinn_Octagon_House_Oct_09.jpg'
+              'img/yachts/2/1.jpg',
+              'img/yachts/2/2.jpg',
+              'img/yachts/2/3.jpg',
+              'img/yachts/2/4.jpg',
+              'img/yachts/2/5.jpg',
             ]
           },
           {
-            name: 'Wgerv Dbvke',
-            location: 'Msk',
-            description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
-            cost: '120 000$',
+            name: 'Manhattan 52',
+            location: 'Франция',
+            description: 'Великолепная небольшая яхта, расположенная во Франции, была изготовлена в августе прошлого года и управлялась командой на Кипре. Самая популярная модель компании Sunseeker. Создана для максимизации комфортного отдыха и возможностей развлечения. Износ двигателя менее 140 часов.',
+            cost: '1.150.000 €',
             images: [
-              'https://t-ec.bstatic.com/images/hotel/max1024x768/151/151762845.jpg',
-              'https://c1.staticflickr.com/2/1735/28610441618_5407a08120_b.jpg',
-              'https://www.tourstaffordva.com/wp-content/uploads/2017/06/belmont1-1024x768.jpg'
+              'img/yachts/3/1.jpg',
+              'img/yachts/3/2.jpg',
+              'img/yachts/3/3.jpg',
+              'img/yachts/3/4.jpg',
+              'img/yachts/3/5.jpg',
             ]
           }
         ],
         hotels: [
           {
-            name: 'Alpine Palace',
-            location: 'Вена, Австрия',
-            description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
-            cost: '120 000$',
+            name: 'Австрийские альпы',
+            location: 'Бад-Гаштайн, Австрия',
+            description: 'Трёхзвёздочный отель на 86 мест находится на известном горнолыжном курорте. В данный момент сдан в аренду и приносит доход до 120 000 евро в год. Доход возможно увеличить при инвестировании в косметическую реконструкцию.',
+            cost: '1.920.000 €',
             images: [
-              'https://s-ec.bstatic.com/images/hotel/max1024x768/102/102955271.jpg',
-              'https://t-ec.bstatic.com/images/hotel/max1024x768/102/102805776.jpg',
-              'https://pix10.agoda.net/hotelImages/263/263722/263722_15110916520037617543.jpg?s=1024x768',
+              'img/hotels/alpine/1.jpg',
+              'img//hotels/alpine/2.jpg',
+              'img//hotels/alpine/3.jpg',
+              'img//hotels/alpine/4.jpg',
+              'img//hotels/alpine/5.jpg',
             ]
           },
           {
-            name: 'Thurnhers Alpenhof',
-            location: 'Somewhere',
-            description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
-            cost: '120 000$',
+            name: 'Рядом с Веной',
+            location: 'Амштеттен, Австрия',
+            description: 'Четырёхзвёздочный отель на 50 комнат, расположенный в самом сердце города Амштеттен, на земле Нижней Австрии. Хорошо управляется и приносит 580 000 евро в год. В очень хорошем состоянии и с высокими показателями заполняемости.',
+            cost: '6.800.000 €',
             images: [
-              'https://t-ec.bstatic.com/images/hotel/max1024x768/894/89465445.jpg',
-              'https://pix10.agoda.net/hotelImages/479579/-1/b7875dec4aa313dedc044e5ba2747d4e.jpg?s=1024x768',
-              'https://s-ec.bstatic.com/images/hotel/max1024x768/596/59674259.jpg',
+              'img/hotels/vienna/1.jpg',
+              'img/hotels/vienna/2.jpg',
+              'img/hotels/vienna/3.jpg',
+              'img/hotels/vienna/4.jpg',
+              'img/hotels/vienna/5.jpg',
             ]
           },
           {
-            name: 'Ambassador',
-            location: 'Lipetsk',
-            description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
-            cost: '120 000$',
+            name: 'В Черногории',
+            location: 'Будва, Черногория',
+            description: 'Сезонный четырёхзвёздочный отель на 256 номеров, который готова взять в долгосрочное управление крупная европейская компания. Доход собственника будет 3 140 000 в год. Отличное расположение на первой линии у моря и собственный выход на пляж.',
+            cost: '28.500.000 €',
             images: [
-              'https://s-ec.bstatic.com/images/hotel/max1024x768/596/59674259.jpg',
-              'https://intercity.by/upload/resize_cache/iblock/787/1024_768_1dffdf205b575648ed4337be7d72ebe97/anastasia-beach-hotel-4.jpg',
-              'https://q.bstatic.com/images/hotel/max1024x768/492/49238020.jpg',
+              'img/hotels/chern/02.jpg',
+              'img/hotels/chern/03.jpg',
+              'img/hotels/chern/04.jpg',
+              'img/hotels/chern/05.jpg',
+
             ]
           }
         ],
@@ -169,10 +186,10 @@ class Root extends Component {
     const { actions: { scroll } } = this.props
     return (
       <Fragment>
-        <MediaQuery query='(min-device-width: 800px)'>
+        <MediaQuery query='(min-device-width: 1025px)'>
           <Desktop data={this.state.data} app={this.props.app} actions={this.props.actions}/>
         </MediaQuery>
-        <MediaQuery query='(max-device-width: 800px)'>
+        <MediaQuery query='(max-device-width: 1024px)'>
           <Mobile data={this.state.data} app={this.props.app} actions={this.props.actions}/>
         </MediaQuery>
       </Fragment>
