@@ -41,7 +41,7 @@ class Gallery__mobile extends Component {
         <div className='image-slider'>
           <ImageGallery
             ref={c => this.reactGallery = c}
-            items={data.images.map(image => ({
+            items={data.images.map((image, key) => ({
               original: image,
               thumbnail: image,
               bulletClass: 'bullet',
@@ -64,7 +64,7 @@ class Gallery__mobile extends Component {
             <p className='size__font-18px'>{ data.description }</p>
             <div>
               <p className='size__font-30px'>{ data.cost }</p>
-              <button onClick={togglePopup}>Связаться с нами</button>
+              <button onClick={() => togglePopup(data.name, this.props.name)}>Связаться с нами</button>
             </div>
           </div>
         </div>

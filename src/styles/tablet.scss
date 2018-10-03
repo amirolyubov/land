@@ -9,6 +9,9 @@
     margin: 0;
     padding: 0;
   }
+  a {
+    text-decoration: none !important;
+  }
   @mixin color__gray { background-color: $COLOR__GRAY; }
   @mixin padding__normal { padding: 30px $SIZE__FST_COL; }
   @mixin background {
@@ -368,7 +371,7 @@
           text-align: right;
           color: $COLOR__LIGHTGRAY;
         }
-        .phone {
+        a {
           grid-row-start: 3;
         }
       }

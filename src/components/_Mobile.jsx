@@ -14,7 +14,11 @@ class Mobile extends Component {
     }
   }
 
-  togglePopup = () => this.setState({ renderPopup: !this.state.renderPopup })
+
+  togglePopup = (name, cat) => {
+    this.props.actions.selectOne({name, cat})
+    this.setState({ renderPopup: !this.state.renderPopup })
+  }
   render () {
     const { actions: { scroll }, data } = this.props
     const { renderPopup } = this.state

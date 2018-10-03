@@ -5,16 +5,30 @@ export const handleChange = params => ({
   payload: { ...params }
 })
 
+export const selectOne = options => ({
+  type: types.SELECT_ONE,
+  payload: options.cat ? options : { cat: '', name: '' }
+})
+
 export const sendContacts = params =>
-  dispatch => {
+  (dispatch, getState) => {
     dispatch(sendContacts__request);
+    const app = getState().app
+
+    let _params = {
+      name: params.name,
+      phone: params.phone,
+      'object': app.item.name,
+      'type': app.item.cat
+    };
+
     (() => new Promise((resolve, reject) => {
       fetch('/request', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify(params)
+        body: JSON.stringify(_params)
       })
       .then(data => responce(data.json()))
       .catch(err => reject())

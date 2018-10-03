@@ -14,7 +14,6 @@ class Gallery__desktop extends Component {
 
   handleNameClick = key => {
     this.reactGallery.slideToIndex(0)
-    console.log(this.reactGallery);
     this.setState({ selected: key, selectedImage: 0 })
   }
   handleNextImageClick = () => {
@@ -75,7 +74,7 @@ class Gallery__desktop extends Component {
             <p className='size__font-20px'>{ data[selected].location }</p>
             <p className='size__font-18px'>{ data[selected].description }</p>
             <p className='size__font-30px'>{ data[selected].cost }</p>
-            <button onClick={togglePopup}>Связаться с нами</button>
+            <button onClick={() => togglePopup(data[selected].name, this.props.name)}>Связаться с нами</button>
           </div>
         </div>
       </div>

@@ -46,9 +46,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
+              'https://odis.homeaway.com/odis/listing/aa5cdbc7-fdf5-4135-86d1-9a6803cc86e4.c10.jpg',
+              'https://s-ec.bstatic.com/images/hotel/max1024x768/106/106272808.jpg',
+              'https://odis.homeaway.com/odis/listing/50624bf1-f903-42cc-8aa4-6a84d1a5f332.c10.jpg'
             ]
           },
           {
@@ -57,9 +57,9 @@ class Root extends Component {
             description: 'Короткие (до 1 000 знаков) приветственные тексты на главную страницу могут позволить себе далеко не все сайты. Например, почти все крупные интернет-магазины, сайты компаний',
             cost: '120 000$',
             images: [
-              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
+              'https://image.yachtcharterfleet.com/charter-LADY-A/LADY-A-yacht-rear-view-5-large.jpg?image_id=96051&k=b961&w=1024&h=768&q=75',
+              'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWfo6jKOHsmQdl9-NVnd32xbC8cpH4ExOOFjLaWy4D1cFKnNWK',
+              'https://odis.homeaway.com/odis/listing/8183f736-5ff1-4dd3-a53a-cb7aac4244ac.c10.jpg'
             ]
           },
           {
@@ -68,9 +68,9 @@ class Root extends Component {
             description: 'Реалии же таковы, что короткие тексты обычно встречаются на трастовых и уважаемых сайтах, которые прекрасно чувствуют себя в выдаче. Наверное, в число «счастливчиков» можно ',
             cost: '120 000$',
             images: [
-              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
+              'https://odis.homeaway.com/odis/listing/824a21db-6b39-4537-a508-159d28bcb2e4.c10.jpg',
+              'https://cdn.denisonyachtsales.com/images/api-listings/1/91/6/4929106_20170719053500415_1_XLARGE.jpg',
+              'https://imt.boatwizard.com/images/1/91/6/4929106_20170719053454484_1_XLARGE.jpg'
             ]
           }
         ],
@@ -81,9 +81,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
+              'https://c1.staticflickr.com/6/5064/5560750715_a1783e827f_b.jpg',
+              'http://sanfranciscoarchitects.org/wp-content/uploads/calistoga-residence-by-signum-archtecture-min.png',
+              'http://customhomemagazine.com/wp-content/uploads/2018/01/TX-AR-03-min.png'
             ]
           },
           {
@@ -92,9 +92,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
+              'https://c1.staticflickr.com/6/5064/5560750715_a1783e827f_b.jpg',
+              'https://edinarealtyimages.blob.core.windows.net/listing/RMLS/9901-9903-Rich-Road-Bloomington-MN-55437-4890933-image1.jpg',
+              'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Rich-Twinn_Octagon_House_Oct_09.jpg/1024px-Rich-Twinn_Octagon_House_Oct_09.jpg'
             ]
           },
           {
@@ -103,9 +103,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
+              'https://t-ec.bstatic.com/images/hotel/max1024x768/151/151762845.jpg',
+              'https://c1.staticflickr.com/2/1735/28610441618_5407a08120_b.jpg',
+              'https://www.tourstaffordva.com/wp-content/uploads/2017/06/belmont1-1024x768.jpg'
             ]
           }
         ],
@@ -116,9 +116,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
+              'https://s-ec.bstatic.com/images/hotel/max1024x768/102/102955271.jpg',
+              'https://t-ec.bstatic.com/images/hotel/max1024x768/102/102805776.jpg',
+              'https://pix10.agoda.net/hotelImages/263/263722/263722_15110916520037617543.jpg?s=1024x768',
             ]
           },
           {
@@ -127,9 +127,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
+              'https://t-ec.bstatic.com/images/hotel/max1024x768/894/89465445.jpg',
+              'https://pix10.agoda.net/hotelImages/479579/-1/b7875dec4aa313dedc044e5ba2747d4e.jpg?s=1024x768',
+              'https://s-ec.bstatic.com/images/hotel/max1024x768/596/59674259.jpg',
             ]
           },
           {
@@ -138,9 +138,9 @@ class Root extends Component {
             description: 'На улицах и пустырях мальчики запускают воздушных змеев, а девочки играют деревянными ракетками с многоцветными рисунками в ханэ, при этом чувство непосредственно',
             cost: '120 000$',
             images: [
-              'https://static.tonkosti.ru/images/a/a9/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D1%84%D0%BE%D1%80%D1%86%D0%B0%2C_%D0%9C%D0%B8%D0%BB%D0%B0%D0%BD.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/41862.jpg',
-              'http://www.allcastles.ru/assets/imagecache/www/images/387/32694.jpg',
+              'https://s-ec.bstatic.com/images/hotel/max1024x768/596/59674259.jpg',
+              'https://intercity.by/upload/resize_cache/iblock/787/1024_768_1dffdf205b575648ed4337be7d72ebe97/anastasia-beach-hotel-4.jpg',
+              'https://q.bstatic.com/images/hotel/max1024x768/492/49238020.jpg',
             ]
           }
         ],

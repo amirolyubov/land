@@ -51,7 +51,10 @@ class Desktop extends Component {
     }
   }
 
-  togglePopup = () => this.setState({ renderPopup: !this.state.renderPopup })
+  togglePopup = (name, cat) => {
+    this.props.actions.selectOne({name, cat})
+    this.setState({ renderPopup: !this.state.renderPopup })
+  }
   render () {
     const { actions: { data, scroll }, data: { yachts, buildings, hotels } } = this.props
     const { renderPopup } = this.state

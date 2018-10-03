@@ -9,6 +9,9 @@
     margin: 0;
     padding: 0;
   }
+  a {
+    text-decoration: none !important;
+  }
   @mixin color__gray { background-color: $COLOR__GRAY; }
   @mixin padding__normal { padding: 30px $SIZE__FST_COL; }
   @mixin background {
@@ -95,7 +98,7 @@
   html body {
     div#app {
       background: $COLOR__BROWN;
-      padding-bottom: 70px;
+      padding-bottom: 80px;
       h1 {
         color: $COLOR__YELLOW;
         padding: 40px;
@@ -145,7 +148,7 @@
         width: 100%;
         align-items: center;
         button{
-          margin-top: 0;
+          margin-top: 15px;
           width: 100%;
           height: 50px;
         }
@@ -196,7 +199,7 @@
           h1 {
             padding: 0;
             text-align: left;
-            margin-top: 80px;
+            margin-top: 100px;
             margin-bottom: 10px;
             color: $COLOR__WHITE;
             font-size: 30px;
@@ -269,7 +272,6 @@
             background: $COLOR__BROWN;
             border: 0;
             position: relative;
-            margin-bottom: 25px;
             width: 16px;
             height: 16px;
 
@@ -371,9 +373,9 @@
         background: $COLOR__BROWN;
         width: 100%;
         bottom: 0;
-        padding: 10px $SIZE__FST_COL;
+        padding: 20px $SIZE__FST_COL;
         display: grid;
-        grid-template-rows: 40px 20px 20px;
+        grid-template-rows: 40px 25px 20px;
         grid-template-columns: 70% 30%;
         * {
           font-size: $SIZE__FONT_SMALL;
@@ -381,7 +383,7 @@
         .address {
           grid-row-start: 1
         }
-        .phone {
+        a {
           grid-row-start: 2
         }
         .name {
