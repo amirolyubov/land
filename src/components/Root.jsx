@@ -168,18 +168,6 @@ class Root extends Component {
     }
   }
 
-  componentDidMount = () => {
-    const { app: { current, keys, scrollPoints }, actions: { wheel } } = this.props
-    document.body.onkeydown = ({ keyCode }) => {
-      if (keyCode === 33) {
-        this.reactPageScroller.goToPage(this.reactPageScroller.state.componentIndex - 1)
-      }
-      if (keyCode === 34) {
-        this.reactPageScroller.goToPage(this.reactPageScroller.state.componentIndex + 1)
-      }
-    }
-  }
-
   togglePopup = () => this.setState({ renderPopup: !this.state.renderPopup })
   render () {
     const { yachts, buildings, hotels, renderPopup } = this.state

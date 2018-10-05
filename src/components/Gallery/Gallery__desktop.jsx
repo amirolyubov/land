@@ -29,8 +29,29 @@ class Gallery__desktop extends Component {
     this.setState({ selectedImage: selectedImage > 0 ? selectedImage - 1 : imagesLength - 1 })
   }
 
-  returnOne = () => {
-
+  renderGallery = selected => {
+    const { data } = this.props
+    return (
+      <div className='image-slider'>
+        <ImageGallery
+          ref={c => this.reactGallery = c}
+          items={data[selected].images.map((image, key) => ({
+            original: image,
+            thumbnail: image,
+            bulletClass: 'bullet',
+            bulletOnClick: item => this.reactGallery && key === item.itemIndex ? 'bullet active' : 'bullet'
+          }))}
+          showThumbnails={false}
+          showFullscreenButton={false}
+          useBrowserFullscreen={false}
+          showPlayButton={false}
+          showBullets
+          additionalClass='image-wrapper'
+          renderLeftNav={(onClick) => <button className='icon left' onClick={onClick}></button>}
+          renderRightNav={(onClick) => <button className='icon right' onClick={onClick}></button>}
+          />
+      </div>
+    )
   }
   render () {
     const { data, name, togglePopup, id } = this.props
@@ -49,25 +70,9 @@ class Gallery__desktop extends Component {
             }
           </div>
         </div>
-        <div className='image-slider'>
-          <ImageGallery
-            ref={c => this.reactGallery = c}
-            items={data[selected].images.map((image, key) => ({
-              original: image,
-              thumbnail: image,
-              bulletClass: 'bullet',
-              bulletOnClick: item => this.reactGallery && key === item.itemIndex ? 'bullet active' : 'bullet'
-            }))}
-            showThumbnails={false}
-            showFullscreenButton={false}
-            useBrowserFullscreen={false}
-            showPlayButton={false}
-            showBullets
-            additionalClass='image-wrapper'
-            renderLeftNav={(onClick) => <button className='icon left' onClick={onClick}></button>}
-            renderRightNav={(onClick) => <button className='icon right' onClick={onClick}></button>}
-            />
-        </div>
+        {
+          this.renderGallery(selected)
+        }
         <div className='info'>
           <div>
             <p className='size__font-30px'>{ data[selected].name }</p>

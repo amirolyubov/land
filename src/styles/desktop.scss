@@ -166,7 +166,7 @@
       div.start {
         @include background;
         display: grid;
-        grid-template-columns: $SIZE__FST_COL auto 23%;
+        grid-template-columns: $SIZE__FST_COL 75% 23%;
         grid-template-rows: 40% auto 100px;
         width: 100vw;
         height: 100vh;
@@ -307,6 +307,15 @@
         padding: 10px $SIZE__FST_COL;
         * {
           font-size: $SIZE__FONT_SMALL;
+        }
+        p.contacts {
+          display: flex;
+          * {
+            color: white;
+          }
+          .split {
+            margin: 0 5px;
+          }
         }
         :nth-child(1) {
           color: $COLOR__LIGHTGRAY;

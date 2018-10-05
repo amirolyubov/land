@@ -63,7 +63,7 @@ class Desktop extends Component {
         <Slider position={this.props.app.position} scroll={this.reactPageScroller && this.reactPageScroller.goToPage} />
         <ReactPageScroller
           ref={c => this.reactPageScroller = c}
-          animationTimer={600}
+          animationTimer={200}
           pageOnChange={key => scroll(key - 1)}
           >
           <Fragment>
@@ -71,7 +71,7 @@ class Desktop extends Component {
             <Start />
           </Fragment>
           <Gallery__desktop id={'gallery_hotels'} actions={this.props.actions} togglePopup={this.togglePopup} name={ 'Отели' } data={ hotels } />
-          <Gallery__desktop id={'gallery_flats'} actions={this.props.actions} togglePopup={this.togglePopup} name={ 'Живая недвижимость' } data={ buildings } />
+          <Gallery__desktop id={'gallery_flats'} actions={this.props.actions} togglePopup={this.togglePopup} name={ 'Жилая недвижимость' } data={ buildings } />
           <Gallery__desktop id={'gallery_yachts'} actions={this.props.actions} togglePopup={this.togglePopup} name={ 'Яхты' } data={ yachts } />
         </ReactPageScroller>
         <Footer />

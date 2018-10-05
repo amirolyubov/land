@@ -386,8 +386,12 @@
         .address {
           grid-row-start: 1
         }
-        a {
-          grid-row-start: 2
+        p.contacts {
+          display: flex;
+          grid-row-start: 2;
+          .split {
+            margin: 0 5px;
+          }
         }
         .name {
           color: $COLOR__LIGHTGRAY;

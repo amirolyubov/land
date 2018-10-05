@@ -331,17 +331,30 @@
         width: 100%;
         bottom: 0;
         padding: 10px $SIZE__FST_COL;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: 20px 20px;
+
         * {
           font-size: 12px;
         }
-        div {
-          margin-bottom: 5px;
+        .name {
+          font-size: 10px;
+          color: $COLOR__LIGHTGRAY;
+          grid-column-start: 2;
+          grid-row-start: 1;
+          text-align: right;
+        }
+        .contacts {
           display: flex;
-          justify-content: space-between;
-          :nth-child(2) {
-            font-size: 10px;
-            color: $COLOR__LIGHTGRAY;
+          grid-row-start: 2;
+          .split {
+            margin: 0 5px;
           }
+        }
+        .address {
+          grid-column-start: 1;
+          grid-row-start: 1;
         }
       }
       div.popup-wrapper {

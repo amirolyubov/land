@@ -13,15 +13,15 @@ class Start extends Component {
           <div>
             <div>
               <p className='number'>до 8.11%</p>
-              <p class="center">Доходность отелей в Европе</p>
+              <p className="center">Доходность отелей в Европе</p>
             </div>
             <div>
               <p className='number'>от 2.2%</p>
-              <p class="center">Ипотека на жилые объекты</p>
+              <p className="center">Ипотека на жилые объекты</p>
             </div>
             <div>
               <p className='number'>от 1.4%</p>
-              <p class="center">Ипотека в наших банках</p>
+              <p className="center">Ипотека в наших банках</p>
             </div>
           </div>
         </div>
