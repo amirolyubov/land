@@ -23,6 +23,7 @@ const app = (state = initialState, action) => {
     case types.POPUP__REQUEST:
     case types.POPUP__FAILURE:
     case types.POPUP__SUCCESS:
+    case types.POPUP__PRIVACY:
       return {
         ...state,
         requestState: requestStates[action.type]

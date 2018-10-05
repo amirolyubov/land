@@ -336,7 +336,7 @@
           background: $COLOR__BROWN;
           align-items: center;
           border: 1px solid $COLOR__YELLOW;
-          padding: 40px 60px 60px;
+          padding: 40px 60px 40px;
           text-align: center;
           :nth-child(1) {
             margin-bottom: 15px;
@@ -375,6 +375,16 @@
             div.cancel {
               opacity: 0.6;
             }
+          }
+          .size__font-12px{
+            padding-top: 20px;
+            color: #a5a5a5;
+          }
+          .privacyInfo{
+            margin: 0 !important;
+            width: 523px;
+            color: #a5a5a5 !important;
+            font-size: 12px !important;
           }
         }
       }
