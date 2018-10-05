@@ -166,7 +166,7 @@
       div.start {
         @include background;
         display: grid;
-        grid-template-columns: $SIZE__FST_COL auto 23%;
+        grid-template-columns: $SIZE__FST_COL 75% 23%;
         grid-template-rows: 40% auto 100px;
         width: 100vw;
         height: 100vh;

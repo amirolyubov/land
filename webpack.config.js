@@ -48,7 +48,7 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'template.html'
-    })
+    }),
   ]
 }
 module.exports = config
