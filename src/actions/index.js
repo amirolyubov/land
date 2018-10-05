@@ -9,9 +9,15 @@ export const selectOne = options => ({
   type: types.SELECT_ONE,
   payload: options.cat ? options : { cat: '', name: '' }
 })
+
 export const showPrivacyInfo = () => ({
   type: types.POPUP__PRIVACY
 })
+
+export const showInitialPopup = () => ({
+  type: types.POPUP__PROCESS
+})
+
 export const sendContacts = params =>
   (dispatch, getState) => {
     dispatch(sendContacts__request);
