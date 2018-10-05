@@ -308,6 +308,15 @@
         * {
           font-size: $SIZE__FONT_SMALL;
         }
+        p.contacts {
+          display: flex;
+          * {
+            color: white;
+          }
+          .split {
+            margin: 0 5px;
+          }
+        }
         :nth-child(1) {
           color: $COLOR__LIGHTGRAY;
         }
