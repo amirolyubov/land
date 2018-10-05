@@ -26,6 +26,10 @@
 
   .color__white   { color: $COLOR__WHITE; }
 
+  a {
+    text-decoration: none;
+  }
+
   p {
     font-size: $SIZE__FONT_TEXT;
     color: $COLOR__WHITE;

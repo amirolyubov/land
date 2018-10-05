@@ -42,6 +42,7 @@ class Popup extends Component {
         <input name='name' value={ name } onChange={this.handleChange} placeholder='Ваше имя' />
         <input name='phone' value={ phone } onChange={this.handleChange} placeholder='Телефон' />
         <button className={isAccept ? '' : 'disabled'} onClick={isAccept ? this.handleSendClick : null}>Связаться с нами</button>
+        <p className='size__font-18px'>Нажимая кнопку “Связаться с нами“,<br />Вы даете согласие на обработку персональных данных.</p>
       </Fragment>
     )
   }
